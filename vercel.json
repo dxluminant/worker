@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/redfox.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/redfox", "dest": "/api/redfox.js" }
+  ]
+}
