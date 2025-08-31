@@ -1,0 +1,13 @@
+{
+  "name": "redfox-vercel",
+  "version": "1.0.0",
+  "description": "RedFox proxy provider API for Clash on Vercel",
+  "main": "api/redfox.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
+  },
+  "type": "module"
+}
